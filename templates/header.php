@@ -37,7 +37,7 @@
                                 <?php endif; ?>
                                 <?php foreach ($host['users'] as $user) : ?>
                                     <li>
-                                        <a href="/?username=<?=$user['name']?>&password=<?=base64_encode($user['password'])?>">
+                                        <a href="/?username=<?=$user['name']?>&password=<?=base64_encode($user['password'])?>&host=<?=$host['host']?>&port=<?=$host['port']?>">
                                             <?=$user['name']?>
                                         </a>
                                     </li>

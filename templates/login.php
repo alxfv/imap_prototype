@@ -1,4 +1,4 @@
-<h3>Логин</h3>
+<h3>Login</h3>
 
 <div>
     <?= printTime($time['login']) ?>
