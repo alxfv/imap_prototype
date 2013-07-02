@@ -1,0 +1,15 @@
+hosts:
+- host: example.com
+  port: 143
+  users:
+  - name: user1@example.com
+    password: test
+
+  - name: user2@example.com
+    password: test
+
+- host: imap.gmail.com
+  port: 993
+  users:
+  - name: user1@gmail.com
+    password: test
